@@ -1,0 +1,20 @@
+{
+  "EPIC_DB_HOSTNAME": "",
+  "EPIC_DB": "",
+  "EPIC_DB_USER": "",
+  "EPIC_DB_PASS": "",
+  "CCHS_DOMAIN": "",
+
+  "EZCP_USER": "",
+  "EZCP_PASS": "",
+  "EZCP_DB": "",
+  "GSMHP_DOMAIN": "",
+
+  "LOG_PATH": "",
+
+  "MAIL_HOST": "",
+  "MAIL_PORT": 25,
+
+  "MF_API_URL": "",
+  "MF_AUTH": ""
+}

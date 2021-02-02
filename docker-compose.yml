@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  prd:
+    container_name: mFiles_EZCap_Member_Sync
+    build:
+      context: .
+      target: mfiles_ezcap_member_sync
+    environment:
+      TZ: "America/Los_Angeles"
+  telehealth:
+    container_name: mFiles_EZCap_Member_Sync_telehealth
+    build:
+      context: .
+      target: mfiles_ezcap_member_sync_telehealth
+    environment:
+      TZ: "America/Los_Angeles"
