@@ -18,7 +18,7 @@ Technology used: JavaScript, Node, Docker
 ```bash
 node server.js
 ```
-* **Or**......Run a docker container from root directory:
+* **Or**..........Run a docker container from root directory:
 ```bash
 docker-compose up -d
 ```
