@@ -14,11 +14,11 @@ Technology used: JavaScript, Node, Docker
 3. Create **config.json** in config directory. See **config.sample.json**.
 
 ## Run
-* Either Run directly in bin directory:
+* **Either**  Run directly in bin directory:
 ```bash
 node server.js
 ```
-* Or Run a docker container from root directory:
+* **Or**      Run a docker container from root directory:
 ```bash
 docker-compose up -d
 ```
