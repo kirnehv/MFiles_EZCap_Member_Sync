@@ -13,7 +13,11 @@ Technology used: JavaScript, Node, Docker
 2. Run `yarn install` in root directory to install necessary modules.
 
 ## Run
-* Run `node server.js` in bin directory.
-or
-* Setup a database and name it `tunify` (can use **phpMyAdmin**) and import the sql file
-* Run `docker-compose up -d` in root directory.
+* Run directly in bin directory:
+```bash
+node server.js
+```
+* Run a docker container from root directory:
+```bash
+docker-compose up -d
+```
